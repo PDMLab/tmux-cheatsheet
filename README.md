@@ -37,4 +37,12 @@ sudo apt-get install tmux
 ```<CTRL>+b [``` enable scrolling history in current pane (use mouse or ```pgUp``` / ```pgDown```)     
 ```q``` leave scroll view in pane
 
+```<CTRL>+b : resize-pane -D``` Resize the current pane down    
+```<CTRL>+b : resize-pane -U``` Resize the current pane up    
+```<CTRL>+b : resize-pane -L``` Resize the current pane left   
+```<CTRL>+b : resize-pane -R``` Resize the current pane right   
+```<CTRL>+b : resize-pane -D 10``` Resize the current pane down by 10 cells   
+```<CTRL>+b : resize-pane -U 10``` Resize the current pane up by 10 cells   
+```<CTRL>+b : resize-pane -L 10``` Resize the current pane left by 10 cells   
+```<CTRL>+b : resize-pane -R 10``` Resize the current pane right by 10 cells   
 
